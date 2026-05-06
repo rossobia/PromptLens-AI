@@ -15,3 +15,9 @@ Proje, eğitmenimizin isteği doğrultusunda decoupled (ayrık) bir mimari ile k
 
 ## 📋 Planlama
 Proje adımları ve LLM-ready yol haritası için ana dizindeki `plan.md` dosyasını inceleyebilirsiniz.
+
+## Ekran Görüntüleri
+
+| Onboarding | Kamera | Abonelik |
+| :---: | :---: | :---: |
+| ![Onboarding](assets/screenshots/mobil_giriş.jpeg) | ![Kamera](assets/screenshots/mobil_ana_ekran.jpeg) | ![Abonelik](assets/screenshots/mobil_premium_ekran.jpeg) |
