@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 # ⚠️ Kendi hf_... tokenını buraya yapıştır kanka!
-HF_TOKEN = "BURAYA_HUGGING_FACE_TOKENINI_YAPIŞTIR"
+HF_TOKEN = "GÜVENLİK SEBEBİYLE TOKEN KALDIRILMIŞTIR."
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
 
