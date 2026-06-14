@@ -1,23 +1,25 @@
 # 🚀 PromptLens AI
 
-Bu proje, gerçek zamanlı AI stil transferi uygulaması için geliştirilen bir altyapı çalışmasıdır.
+PromptLens AI, kullanıcıların yapay zeka gücüyle görseller oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan gelişmiş bir mobil uygulamadır. Görüntü işleme ve üretken yapay zeka süreçleri için **Fal.ai (Flux Modelleri)** entegrasyonu ile çalışır.
 
-## 🛠 Mimari Yapı
-Proje, eğitmenimizin isteği doğrultusunda decoupled (ayrık) bir mimari ile kurulmuştur
-- backend FastAPI (Python) tabanlı API servisi.
-- frontend React Native & Expo tabanlı mobil arayüz.
+## ✨ Temel Özellikler
 
-## 🚀 Başlangıç
-1. Backend servisini başlatmak için `cd backend && uvicorn mainapp --reload`
-2. Servis başladıktan sonra tarayıcıdan şu linklere erişebilirsiniz
-   - Ana Karşılama `http127.0.0.18000`
-   - Teknik Dökümantasyon (Swagger) `http127.0.0.18000docs`
+* **🎨 Sıfırdan Hayal Et (Text-to-Image):** Gelişmiş prompt mühendisliği ile metinleri yüksek kaliteli görsellere dönüştürme.
+* **📸 Kamera Stil Dönüştürücü:** Çekilen veya yüklenen fotoğrafları yapay zeka ile farklı sanatsal stillere anında uyarlama.
+* **🪄 Akıllı Düzenleme:** Fotoğraflar üzerindeki istenmeyen nesneleri silme veya arka plan değiştirme işlemleri ile standart fotoğraf düzenleme özellikeri.
+* **⚡ Yüksek Performans:** Ağır yapay zeka işlemlerini yormadan işleyen asenkron backend mimarisi.
 
-## 📋 Planlama
-Proje adımları ve LLM-ready yol haritası için ana dizindeki `plan.md` dosyasını inceleyebilirsiniz.
+## 🛠️ Kullanılan Teknolojiler
 
-## Ekran Görüntüleri
+**Frontend (Mobil Uygulama):**
+* React Native & Expo
+* TypeScript / JavaScript
+* Expo Camera & File System Entegrasyonları
 
-| Onboarding | Kamera | Abonelik |
-| :---: | :---: | :---: |
-| ![Onboarding](assets/screenshots/mobil_giriş.jpeg) | ![Kamera](assets/screenshots/mobil_ana_ekran.jpeg) | ![Abonelik](assets/screenshots/mobil_premium_ekran.jpeg) |
+**Backend (API & AI):**
+* Python (FastAPI)
+* Fal.ai (Flux dev/general vb. yapay zeka modelleri)
+* Uvicorn Serverady yol haritası için ana dizindeki `plan.md` dosyasını inceleyebilirsiniz.
+
+
+** Uygulamanın arayüzlerini görmek için lütfen ''Proje Fotoğrafları'' klasörünü inceleyiniz. ** 
