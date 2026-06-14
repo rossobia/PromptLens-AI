@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+deep-translator
+pydantic
+opencv-python-headless
+numpy
+Pillow
+requests
